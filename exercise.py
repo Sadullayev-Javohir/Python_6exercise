@@ -1,3 +1,8 @@
+"""1-navbatda pul kiritiladi. 2-navbatda masofa km da kiritiladi. Taxi va Avtobus narxlari
+alohida kiritiladi. So'ng nechta avtobusligi kiritiladi va siz qaysi transportda keta 
+olishingizni aytadigan va qaysi transportda keta olsangiz true yoki false qaytaradigan
+programma tuzilsin."""
+
 money = int(input("Pul kiriting: "))
 length = float(input("Masofani km da kiriting: "))
 taxi_price = int(input("Taxi narxini kiriting: "))
