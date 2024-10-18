@@ -3,10 +3,10 @@ alohida kiritiladi. So'ng nechta avtobusligi kiritiladi va siz qaysi transportda
 olishingizni aytadigan va qaysi transportda keta olsangiz true yoki false qaytaradigan
 programma tuzilsin."""
 
-money = int(input("Pul kiriting: "))
+money = float(input("Pul kiriting: "))
 length = float(input("Masofani km da kiriting: "))
-taxi_price = int(input("Taxi narxini kiriting: "))
-bus_price = int(input("Avtobus narxini kiriting: "))
+taxi_price = float(input("Taxi narxini kiriting: "))
+bus_price = float(input("Avtobus narxini kiriting: "))
 bus_num = int(input("Nechta avtobusligini kiriting: "))
 
 bus_main = (bus_price * bus_num)
